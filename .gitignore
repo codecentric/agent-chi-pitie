@@ -1,0 +1,13 @@
+# Node modules
+node_modules/
+
+# Editor config files (e.g., VSCode)
+*.imconfig
+.vscode/
+.idea/
+
+# Compiled TypeScript files
+*.js.map
+build/
+
+azure.env
