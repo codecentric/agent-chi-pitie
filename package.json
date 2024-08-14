@@ -1,15 +1,15 @@
 {
-  "name": "I-am-gpt--agent-gpt",
+  "name": "agent-chi-pitie",
   "version": "0.0.1",
   "main": "index.ts",
   "scripts": {
-    "dev": "source azure.env && npx ts-node index.ts",
-    "wiki": "source azure.env && npx ts-node wikipedia.ts"
+    "dev": "source azure.env && npx ts-node index.ts"
   },
   "author": "Robin Schlenker",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "prettier": "^3.3.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   },
@@ -18,8 +18,6 @@
     "@langchain/community": "^0.2.10",
     "@langchain/core": "^0.2.6",
     "@langchain/openai": "^0.1.3",
-    "hnswlib-node": "^3.0.0",
-    "prettier": "^3.3.2",
     "zod": "^3.23.8"
   }
 }
